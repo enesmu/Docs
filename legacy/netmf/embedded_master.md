@@ -20,7 +20,7 @@ If haven't yet, read about using .NET NETMF devices [with TinyCLR OS](intro.md#w
 > This is a one-time procedure. You should have no issues after the bootloader V2 is loaded.
 
 **To update using USB**
-1. Download the [bootloader file](../../hardware/loaders/ghi_bootloader.md#embedded-master)
+1. Download the [bootloader file](../../tinyclr/loaders/ghi_bootloader.md#embedded-master)
 2. Set Embedded Master in boot mode, by making pins up, down, and select (3, 7, and 53 on TFT or 43 on non-TFT) low and reset the Embedded Master.
 3. The PC will now detect a virtual serial (COM) device. If you need drivers, they are in the [NETMF](../netmf/intro.md) SDK.
 4. Open any terminal software, we recommend [Tera Term](http://ttssh2.osdn.jp/).
@@ -45,4 +45,4 @@ If haven't yet, read about using .NET NETMF devices [with TinyCLR OS](intro.md#w
 
 To activate bootloader v2, set the up pin low and then reset your board. To enter USB mode, set the select pin.
 
-Download the [EMX firmware](../../tinyclr/downloads.md#emx) and follow [Loading the Firmware](../../hardware/loaders/ghi_bootloader.md#loading-the-firmware) steps.
+Download the [EMX firmware](../../tinyclr/downloads.md#emx) and follow [Loading the Firmware](../../tinyclr/loaders/ghi_bootloader.md#loading-the-firmware) steps.

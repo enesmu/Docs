@@ -23,5 +23,5 @@ Follow the exact same steps found on the [G400](../../scm/g400s.md) page.
 
 To activate bootloader v2, press and hold the LDR0 button while resetting the board.
 
-Download the [G400 firmware](../../tinyclr/downloads.md#g400) and follow [Loading the Firmware](../../hardware/loaders/ghi_bootloader.md#loading-the-firmware) steps.
+Download the [G400 firmware](../../tinyclr/downloads.md#g400) and follow [Loading the Firmware](../../tinyclr/loaders/ghi_bootloader.md#loading-the-firmware) steps.
 

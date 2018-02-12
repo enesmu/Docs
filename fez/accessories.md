@@ -2,7 +2,7 @@
 ---
 ![Accessories](images/accessories.png)
 
-There are thousands of accessories that can be used with [boards](../boards/intro.md) supported by TinyCLR OS, especially [FEZ](../hardware/products/fez.md). However, we have hand picked a few of our favorites and then built the necessary drivers for them.
+There are thousands of accessories that can be used with [boards](../tinyclr/boards/intro.md) supported by TinyCLR OS, especially [FEZ](../fez/intro.md). However, we have hand picked a few of our favorites and then built the necessary drivers for them.
 
 Have a list of your own and want to contribute? Talk to us, [directly](https://www.ghielectronics.com/contact) on through the [community forum](https://forums.ghielectronics.com/).
 
@@ -12,7 +12,7 @@ Have a list of your own and want to contribute? Talk to us, [directly](https://w
 
 The [Adafruit 1.8" Color TFT Shield w/microSD and Joystick](https://www.adafruit.com/product/802) plugs right on top of FEZ, or any other Arduino-pinout compatible board.
 
-To use this shield, just plug it on top of your Arduno-pinout compatible board, like the [FEZ](../hardware/products/fez.md).
+To use this shield, just plug it on top of your Arduno-pinout compatible board, like the [FEZ](../fez/intro.md).
 
 The driver is found [here](https://github.com/ghi-electronics/TinyCLR-Accessories).
 
@@ -22,7 +22,7 @@ The driver is found [here](https://github.com/ghi-electronics/TinyCLR-Accessorie
 
 Through MikroElektronika's [mikroBUS standard](https://www.mikroe.com/mikrobus/), hundreds of [Mikro's Click boards](https://shop.mikroe.com/click) can be easily connected to your board.
 
-The [BrainPad](../../brainpad/intro.md), [Clicker](../boards/mikroelektronika.md#clicker), and [Quail](../boards/mikroelektronika.md#quail) boards all have sockets for plugging click boards.
+The [BrainPad](../../brainpad/intro.md), [Clicker](../tinyclr/boards/mikroelektronika.md#clicker), and [Quail](../tinyclr/boards/mikroelektronika.md#quail) boards all have sockets for plugging click boards.
 
 This video talks about the technology behind SPI bus, shift registers, and serial-parallel data. It uses the [LED ring click](https://shop.mikroe.com/led-ring-r-click) on the BrainPad.
 
@@ -30,7 +30,7 @@ This video talks about the technology behind SPI bus, shift registers, and seria
 
 The source code is found [here](https://github.com/ghi-electronics/Tech-Talks/tree/master/044%20-%20SPI%20Bus).
 
-You can use these click boards with [FEZ](../../hardware/products/fez.md), or any other Arduino-pinout compatible board, through the [Arduino UNO click shield](https://shop.mikroe.com/arduino-uno-click-shield).
+You can use these click boards with [FEZ](../fez/intro.md), or any other Arduino-pinout compatible board, through the [Arduino UNO click shield](https://shop.mikroe.com/arduino-uno-click-shield).
 
 The same code used above with the BrainPad can be used with FEZ and the Arduino UNO click shield. Simply, change the pins from BrainPad to FEZ. The pins are labeled right on the shield. For example, the `CS` pin on socket 1 is labeled `CS/D10`.
 
@@ -42,7 +42,7 @@ The complete project is found [here](https://github.com/ghi-electronics/TinyCLR-
 
 The [Pololu Zumo Robot](https://www.pololu.com/category/169/zumo-robot-for-arduino) from Pololu is one of our favorites, especially the pre-assembled version.
 
-Drop your [FEZ](../../hardware/products/fez.md) on top of the Zumo Robot, or any other Arduino-compatible board, and you are ready to make the robot follow lines and dance around.
+Drop your [FEZ](../fez/intro.md) on top of the Zumo Robot, or any other Arduino-compatible board, and you are ready to make the robot follow lines and dance around.
 
 The driver is found [here](https://github.com/ghi-electronics/TinyCLR-Accessories).
 

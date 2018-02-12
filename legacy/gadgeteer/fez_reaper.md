@@ -20,5 +20,5 @@ The G80 SoC ships with the Bootloader loaded and locked. No further steps are ne
 
 To activate bootloader v2, press and hold both LDR0 and LDR1 buttons down while resetting the board.
 
-Download the [G80 firmware](../../tinyclr/downloads.md#g80) and follow [Loading the Firmware](../../hardware/loaders/ghi_bootloader.md#loading-the-firmware) steps.
+Download the [G80 firmware](../../tinyclr/downloads.md#g80) and follow [Loading the Firmware](../../tinyclr/loaders/ghi_bootloader.md#loading-the-firmware) steps.
 

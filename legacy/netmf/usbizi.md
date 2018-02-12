@@ -44,7 +44,7 @@ The new bootloader v2 can now be loaded.
 
 To activate bootloader v2, set LDR pin low. On FEZ Panda II  it is a button marked LDR. Simply press it. Once the LDR pin is set low, keep it low while resetting the board.
 
-Download the [USBizi firmware](../../tinyclr/downloads.md#usbizi) and follow [Loading the Firmware](../../hardware/loaders/ghi_bootloader.md#loading-the-firmware) steps.
+Download the [USBizi firmware](../../tinyclr/downloads.md#usbizi) and follow [Loading the Firmware](../../tinyclr/loaders/ghi_bootloader.md#loading-the-firmware) steps.
 
 # USBizi Based products
 ## USBizi DevSys

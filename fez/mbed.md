@@ -3,7 +3,7 @@
 ![ARMmbed Logo](images/mbed_logo_noborder.png)
 
 Mbed is an online compiler platform. There is nothing to install, just log in and start coding!
-One of the supported boards is Nucleo-F401RE, which uses the exact same microcontroller found on FEZ. Start with it to build and compile then follow the [STM32 bootloader](../hardware/loaders/stm32_bootloader.md) instructions on generating and loading DFU files. 
+One of the supported boards is Nucleo-F401RE, which uses the exact same microcontroller found on FEZ. Start with it to build and compile then follow the [STM32 bootloader](../tinyclr/loaders/stm32_bootloader.md) instructions on generating and loading DFU files. 
 
 This video shows the steps needed to use Mbed (The FEZ and the BrainPad share the same hardware core).
 
