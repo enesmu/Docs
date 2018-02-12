@@ -1,4 +1,6 @@
 # Porting TinyCLR
+---
+![TinyCLR Logo](../images/tinyclrlogo_noborder.jpg)
 
 TinyCLR OS can be ported to new devices. We provide the precompiled .NET interpreter and runtime for several architectures. Currently Cortex M3, Cortex M4, ARM7, and ARM9 are supported. To get started we'll build the FEZCLR firmware that the [FEZ](../../hardware/products/FEZ.md) uses.
 
@@ -19,3 +21,7 @@ To make using a custom port easier, we're specifically making the USB product ID
 To port to a new board with a new `Target`, make sure it is one of the architectures that we have made a core library available for. Then, like above, you'll need to make a new folder for your device under the Devices folder. You'll also need to create a new folder under Targets that implements the needed APIs. 
 
 The TinyCLR runtime requires you to provide a few APIs for it to function correctly: deployment, interrupt, power, and time. The runtime also makes a few APIs available to you automatically: the API provider itself; a memory allocator; a recurring task creator; and a way to interact with managed objects, arguments, and events. Beyond that, you can provide whatever APIs you need like GPIO and SPI. See the [native API document](native_apis.md) for details on APIs. On top of providing several APIs, you must call all the functions under `TinyCLR_Startup_*` to properly initialize the system. The `main.cpp` provided in the repo that our existing ports use and the build system includes is a good starting point.
+
+## Contributing
+We are taking contributions to the TinyCLR OS ports and documentation, but we don't have an established process just yet, so standard contributing practices apply. Create a fork of the repo, create a new branch from dev, work on your changes, then submit a PR.
+Make sure to follow the existing style for the project and keep your changes easily reviewable. Your changes will need to be licensed under Apache 2 and you need to sign a Contributor License Agreement with us before your PR can be accepted.

@@ -1,5 +1,10 @@
 # Downloads
+---
+![Download](images/download_noborder.jpg)
+
 This page includes different download types for individual boards. See individual product pages for details on what to download.
+
+See Release notes [here](release_notes.md).
 
 Software status legend:
 

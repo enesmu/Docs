@@ -1,7 +1,18 @@
 # TinyCLR OS Introduction
+---
+![TinyCLR Logo](images/tinyclrlogo_noborder.jpg)
 
-TinyCLR OS is our path forward that started with the [.NET Micro Framework](http://netmf.com/) to enable managed .NET development using Microsoft's Visual Studio on embedded devices -- including debugging features! All you need to get started is Visual Studio, a TinyCLR device, and a USB cable. 
+TinyCLR OS is our path forward that started with the [.NET Micro Framework](http://netmf.com/) to enable managed .NET development using Microsoft's Visual Studio on embedded devices -- including debugging features! All you need to get started is Visual Studio, a TinyCLR device, and a USB cable.
 
+|  |  |
+|--|--|
+| **Tutorials** </br> Learn about embedded programming using TinyCLR. [Learn more...](tutorials/intro.md) | **Porting** </br> Run TinyCLR on other devices. [Learn more...](porting/intro.md) |
+| [![Learn More](images/learn.jpg)](tutorials/intro.md) | [![TinyCLR Logo](images/tinyclrlogo.jpg)](porting/intro.md) |
+| **TinyCLR Config** </br> Our device configuration program. [Learn more...](tinyclr_config.md) | **Downloads** </br> Visual Studio and device downloads. [Learn more...](downloads.md) |
+| [![TinyCLR Config](images/tinyclr-config_sm.png)](tinyclr_config.md) | [![Download](images/download.jpg)](downloads.md) |
+| **Roadmap** </br> The future of TinyCLR. [Learn more...](roadmap.md) | **Supported Boards** </br> Some boards that run TinyCLR. [Learn more...](boards/intro.md) |
+| [![Road](images/road.jpg)](roadmap.md) | [![Boards](images/boards.png)](boards/intro.md) |
+d
 > [!Tip]
 > TinyCLR OS is still an alpha so there is still a lot more to come!
 
@@ -28,3 +39,8 @@ To set a system to use TinyCLR OS:
 Take a look at the [release notes](release_notes.md) to see what's new and the [roadmap](roadmap.md) to see what we have planned.
 
 Interested in running TinyCLR OS on your own device? Take a look at the [porting guide](porting/intro.md) for information on how to get started.
+
+## Internet of Things
+A modern system is not complete without support for the Internet and the cloud. TinyCLR OS includes everything you need to be online.
+(details coming soon)
+
