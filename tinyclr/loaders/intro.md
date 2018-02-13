@@ -1,8 +1,8 @@
-# Loaders Introduction
+# Bootloaders Introduction
 ---
-A loader is a small software that boots up the system and runs the firmware. It is also used to update the firmware.
+A bootloader is a small software that boots up the system and runs the firmware. It is also used to update the firmware.
 
-This section covers different loader features and usage details.
+This section covers different bootloader features and usage details.
 
 ## GHI Bootloader
 The [**GHI Bootloader**](ghi_bootloader.md) page can be found [**here**](ghi_bootloader.md).

@@ -12,7 +12,7 @@ TinyCLR OS is our path forward that started with the [.NET Micro Framework](http
 | [![TinyCLR Config](images/tinyclr-config_sm.png)](tinyclr_config.md) | [![Download](images/download.jpg)](downloads.md) |
 | **Roadmap** </br> The future of TinyCLR. [Learn more...](roadmap.md) | **Supported Boards** </br> Some boards that run TinyCLR. [Learn more...](boards/intro.md) |
 | [![Road](images/road.jpg)](roadmap.md) | [![Boards](images/boards.png)](boards/intro.md) |
-d
+
 > [!Tip]
 > TinyCLR OS is still an alpha so there is still a lot more to come!
 

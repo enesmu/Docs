@@ -23,4 +23,4 @@
 # [Downloads](downloads.md)
 # [Roadmap](roadmap.md)
 # [Supported Boards](boards/intro.md)
-# [Loaders](loaders/intro.md)
+# [Bootloaders](loaders/intro.md)

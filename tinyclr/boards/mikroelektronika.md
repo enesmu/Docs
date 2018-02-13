@@ -1,7 +1,7 @@
 # MikroElektronika
 MikroElektronika offers multiple boards that are suited for TinyCLR OS. We offer a pre-compiled firmware for a few of thier products.
 
-Clicker/Clicker 2 and related boards ship with the [Mikro bootloader](../../tinyclr/loaders/mikro_bootloader.md) pre installed. Use it to load the TinyCLR OS firmware.
+Clicker/Clicker 2 and related boards ship with the [Mikro bootloader](../../tinyclr/loaders/intro.md#mikro-bootloader) pre installed. Use it to load the TinyCLR OS firmware.
 
 > [!Tip]
 > The loader will wait for a few seconds on every power up before it runs TinyCLR OS. If this delay is not desirable, use an ST-Link programmer to flash the firmware onto the board directly, overwriting the bootloader.

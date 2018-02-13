@@ -24,7 +24,7 @@ If haven't yet, read about using .NET Gadgeteer devices [with TinyCLR OS](intro.
 2. Press and hold BOOT button down while resetting the board. 
 3. If there is no BOOT button, there will be shunt-footprint labeled BOOT or LDR. Short the 2 pads with a wire while resetting the board.
 4. The system will now detect an ST DFU device.
-5. Read more on [uploading DFU files](/hardware/loaders/stm32_bootloader.md#uploading-dfu-files) on STM32 microcontrollers.
+5. Read more on [uploading DFU files](../../tinyclr/loaders/stm32_bootloader.md#uploading-dfu-files) on STM32 microcontrollers.
 
 ## Loading the Firmware
 
