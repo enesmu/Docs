@@ -1,6 +1,6 @@
 # TinyCLR OS Accessories
 ---
-![Accessories](images/accessories.png)
+![Accessories](images/accessories_noborder.png)
 
 There are thousands of accessories that can be used with [boards](../tinyclr/boards/intro.md) supported by TinyCLR OS, especially [FEZ](../fez/intro.md). However, we have hand picked a few of our favorites and then built the necessary drivers for them.
 

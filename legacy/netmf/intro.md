@@ -33,7 +33,7 @@ Feb 14, 2013 | 4.2 QFE2 | [NETMF and Gadgeteer Package 2013 R1](http://files.ghi
 Feb 17, 2012 | 4.1 RTM | [NETMF 4.1 SDK, for Embedded Master, USBizi and ChipworkX](https://ghistorage.blob.core.windows.net/downloads/NETMF/SDKs/NETMF%204.1%20SDK.zip) (Includes IoT book for FEZ Panda)
 
 # With TinyCLR OS
-Most NETMF devices are still useable today, and with the latest technologies. To use TinyCLR OS, you need to load a new bootloader and the TinyCLR OS firmware.
+Most NETMF devices are still useable today with the latest technology. To use TinyCLR OS, you need to load a new bootloader and the TinyCLR OS firmware.
 
 ## Loading the Bootloader v2
 Before loading the TinyCLR OS firmware, we need load the GHI Electronics' [Bootloader Version 2](../../tinyclr/loaders/ghi_bootloader.md).

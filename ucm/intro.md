@@ -1,4 +1,4 @@
-# UCM Introduction
+# Universal Compute Modules
 ---
 ![G400D](../images/g400d_noborder.jpg)
 
