@@ -2,13 +2,13 @@
 ---
 ![UCM SOM](images/som_noborder.jpg)
 
-Our Universal Compute Modules are based on a 200 pin SO-DIMM form factor.  They adhere to a standard pin out to make it easy to change modules to fit the needs of your product.
+Our UCM Standard defines a consistent hardware and software interface for the most widely used microcontroller peripherals.  Our Universal Compute Modules are based on the 200 pin SO-DIMM form factor.  They adhere to a standard pinout across models making it easy to change modules to adapt to the needs of your product.  
 
-The standard consists of several widely used peripherals found on many microcontrollers such as UART, SPI, I2C, PWM, etc.
+Our UCMs significantly reduce the time and cost of both your hardware and software design.  The hardware standard is described below.  For more information on programming our UCMs using Visual Studio .NET, please visit our [TinyCLR tutorials](../tinyclr/tutorials/intro.md).
 
-The peripherals found on each module may vary.
+Available peripherals vary by model.
 
-# UCM Standard Peripherals
+## UCM Standard Peripherals
 | Peripheral                                            | Up to Max |
 |-------------------------------------------------------|-----------|
 | UART (Universal Asynchronous Receiver/Transmitter)    | 4         |
@@ -17,70 +17,71 @@ The peripherals found on each module may vary.
 | SPI  (Serial Peripheral Interface)                    | 2         |
 | CAN  (Controller Area Network)                        | 2         |
 | SDIO (SD Card)                                        | 1         |
-| ADC  (Analog Input)                                   | 8         |
+| ADC  (Analog to Digital Converter)                    | 8         |
 | PWM  (Pulse Width Modulation)                         | 8         |
 | GPIO (General Purpose Input/Output)                   | 12        |
-| IRQ  (Interrupt Capable GPIO)                         | 4         |
+| IRQ  (Interrupt Request Capable GPIO)                 | 4         |
 | USB Client                                            | 1         |
 | USB Host                                              | 1         |
 | LCD  (TFT Controller - 16bpp or 24bpp)                | 1         |
-| Ethernet PHY                                          | 1         |
+| Ethernet PHY (Ethernet Physical Layer)                | 1         |
 | DCMI (Digital Camera Interface)                       | 1         |
 | VBAT (Battery Backup for RTC)                         | 1         |
-| JTAG                                                  | 1         |
+| JTAG (Debug Serial Port)                              | 1         |
 
-## UART (Universal Asynchronous Receiver/Transmitter)
-UART is an asynchronous serial communication method to allow the user the ability to configure the speed and format of the data sent. [*Example TinyCLR code*](../tinyclr/tutorials/uart.md)
+### UART (Universal Asynchronous Receiver/Transmitter)
+UART is used to implement moderate speed full duplex asynchronous serial communication.  It is usually used for peer to peer communication between only two devices. It can transfer data using only one wire for each direction if both devices share a common ground. [*Sample TinyCLR code*](../tinyclr/tutorials/uart.md)
 
-## UART HS (Handshaking)
-UART handshaking is a configuration of UART to allow the host and client to negotiate data transfer via a *Ready to Send* (RTS) and *Clear to Send* (CTS) signal to prevent missed data.
+### UART HS (Handshaking)
+UART with handshaking is a configuration which allows the host and client to negotiate data transfer via *Ready to Send* (RTS) and *Clear to Send* (CTS) signals (two additional wires) to prevent missed data.
 
-## I2C (Inter-Integrated Circuit)
-I2C is a multi-master, multi-slave, packet switched, single-ended, serial computer bus typically used for attaching lower-speed peripheral ICs to processors and microcontrollers in short-distance, intra-board communication. [*Example TinyCLR code*](../tinyclr/tutorials/i2c.md)
+### I2C (Inter-Integrated Circuit)
+I2C is a multi-master, multi-slave, packet switched, half duplex serial communication bus typically used for attaching peripheral ICs to processors and microcontrollers in short-distance, intra-board communication. It uses two wires and has a slower maximum speed than SPI. [*Sample TinyCLR code*](../tinyclr/tutorials/i2c.md)
 
-## SPI (Serial Peripheral Interface)
-SPI is a synchronous serial communication interface specification used for short distance communication. It uses the master-slave architecture. With TinyCLR the SPI is configured as the master. [*Example TinyCLR code*](../tinyclr/tutorials/spi.md)
+### SPI (Serial Peripheral Interface)
+SPI is a synchronous serial communication interface used for short distance communication. It uses a master-slave protocol. When using TinyCLR the processor running TinyCLR is always configured as the master. SPI needs at least three wires and usually needs an additional line (chip select) for each slave. It can communicate much faster than either UART or I2C. [*Sample TinyCLR code*](../tinyclr/tutorials/spi.md)
 
-## CAN (Controller Area Network)
-A robust bus standard that finds many of its practical applications in the Automotive field. It allows for communication in high noise evnvironments and allows microcontrollers and devices to communicate with each other in applications without a host computer. It is a message-based protocol.
+### CAN (Controller Area Network)
+A robust bus standard that originated in the automotive field and works very well in high noise environments. It allows microcontrollers and devices to communicate with each other in applications without a host computer. It is a message-based multi-master protocol and generally uses only two wires.  Speed is up to one megabit per second but limited by bus length. [*Sample TinyCLR code*](../tinyclr/tutorials/can.md)
 
-## SDIO (SD Card)
-SDIO (Secure Digital Input Output) is an interface to allow the access of SD cards.
 
-## ADC (Analog Input)
-Analog inputs are pins the allow the ability to sense a variable voltage level by converting it to a digital signal. [*Example TinyCLR code*](../tinyclr/tutorials/adc.md)
+### SDIO (SD Card)
+SDIO (Secure Digital Input Output) is an interface used for reading from and writing to SD cards.
 
-## PWM (Pulse Width Modulation)
-PWM is a method of generating a square wave signal of different modulations for encoding signals or controlling loads such as motors.
+### ADC (Analog to Digital Converter)
+ADCs are used to measure an analog voltage level by converting it to a digital value. [*Sample TinyCLR code*](../tinyclr/tutorials/adc.md)
 
-## GPIO (General Purpose Input/Output)
-GPIO are the basic I/O pins that allow the user to connect any kind of basic device for user control such as a button (input) or an LED (output). [*Example TinyCLR code*](../tinyclr/tutorials/gpio.md)
+### PWM (Pulse Width Modulation)
+PWM is a method of generating a square wave signal of uniform frequency with variable duty cycle.  PWM is often used to generate analog voltages, but has many other uses such as generating digital pulses for driving servo motors or driving infrared LEDs for communication. [*Sample TinyCLR code*](../tinyclr/tutorials/pwm.md)
 
-## IRQ (Interrupt Capable GPIO)
-Interrupt capable GPIO are pins that allow the user to assign a special function to the reaction of the state of input. [*Example TinyCLR code*](../tinyclr/tutorials/gpio.md#digital-input-events)
+### GPIO (General Purpose Input/Output)
+GPIOs are the digital I/O pins that allow the user to connect basic devices such as a buttons (input) or LEDs (output).  GPIOs are very versatile and can also be programmed to perform more advanced communication and control duties. [*Sample TinyCLR code*](../tinyclr/tutorials/gpio.md)
 
-## USB Client
-Typically an interface to allow debuging of hardware of USB.
+### IRQ (Interrupt Request Capable GPIO)
+IRQ capable GPIO pins can be programmed to interrupt a program when the input state of the pin changes.  For example, an IRQ could be used to signal the processor that the WiFi module is receiving data.  The processor would then stop what it is doing to get the data from the WiFi module. [*Sample TinyCLR code*](../tinyclr/tutorials/gpio.md#digital-input-events)
 
-## USB Host
-Typically an interface to allow the connection of various devices such as a mouse, keyboard, camera, etc.
+### USB Client
+Used to communicate with a USB host.  Typically used to program and debug embedded devices.
 
-## LCD (TFT Controller - 16bpp or 24bpp)
-The LCD interface allows for a TFT LCD (thin-film-transistor liquid-crystal display) to be connected. The resolution depends of the number of data pins connected.
+### USB Host
+Used to communicate with one or more USB clients.  Typically used to connect various devices such as a mouse, keyboard, camera, etc.
 
-## Ethernet PHY
-The Ethernet PHY is the physical hardware layer that has the Tx and Rx signals to connect to Ethernet connector.
+### LCD (TFT Controller - 16bpp or 24bpp)
+An interface providing communication with a TFT LCD (thin-film-transistor liquid-crystal display). The number of data lines connected determines the number of bits per pixel (bpp) which determines the number of colors that can be displayed. [*Sample TinyCLR code*](../tinyclr/tutorials/display.md)
 
-## DCMI (Digital Camera Interface)
-The interface that allows the connection of digital cameras.
+### Ethernet PHY
+Ethernet PHY is the Ethernet physical (hardware) layer.  It provides the Tx and Rx signals for the Ethernet connector.
 
-## VBAT (Battery Backup for RTC)
-VBAT is a battery voltage interface to allow the microcontroller to "tick" with minimal power to keep real time while device is off. Typically, a low-power crystal oscillates and the processors keeps track while power is applied to the VBAT pin.
+### DCMI (Digital Camera Interface)
+A standard interface for compatable digital cameras.
 
-## JTAG
-JTAG is a debugging interface to allow direct connection to the processor.
+### VBAT (Battery Backup for RTC)
+VBAT is used to provide battery voltage to a microcontroller's real time clock.  It allows the microcontroller to keep the correct time when the main power to the controller is disconnected (the device is turned off). 
 
-# UCM Standard Pin Assignment
+### JTAG
+JTAG is a serial interface which allows communication between the processor and a host computer.  It is built into the microcontroller and provides a means of software debugging including the ability to stop program execution, single step through program instructions, and read and write to memory and processor registers.
+
+## UCM Standard Pin Assignment
 | SO-DIMM Pin   | Universal Compute Standard    |
 |---------------|-------------------------------|
 | 1             | AGND                          |

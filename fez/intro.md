@@ -35,16 +35,20 @@ FEZ (fast and easy) is the ultimate maker board. This low cost board offers Ardu
 
 | Peripheral         | Quantity          |
 |--------------------|-------------------|
+| GPIO (5V tolerant) | 22                |
+| IRQ                | 22                |
 | UART               | 1                 |
 | I2C                | 1                 |
 | SPI                | 1                 |
-| CAN                | 0                 |
-| 12 Bit ADC         | 7                 |
 | PWM                | 9                 |
-| GPIO (5V tolerant) | 22                |
-| IRQ                | 22                |
+| 12 Bit ADC         | 7                 |
+| CAN                | 0                 |
 | USB Client         | 1                 |
 | WiFi               | Optional          |
+
+## Resources
+* [Schematic](http://files.ghielectronics.com/downloads/Schematics/FEZ/FEZ%20T18.pdf)
+* [TinyCLR Tutorial](../tinyclr/tutorials/intro.md)
 
 ## Using NETMF software
 We discourage the use of NETMF software on our products in favor of TinyCLR OS. [Read more](../legacy/netmf/intro.md) about the use of NETMF and TinyCLR OS.
