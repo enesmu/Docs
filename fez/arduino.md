@@ -10,3 +10,7 @@ This video shows the use of Arduino (The FEZ and the BrainPad share the same har
 
 * [Arduino Website](https://www.arduino.cc/)
 * [Arduino STM32 Github](https://github.com/stm32duino)
+
+***
+
+Visit our main website at [**www.ghielectronics.com**](http://www.ghielectronics.com) and our community forums at [**forums.ghielectronics.com**](https://forums.ghielectronics.com/).

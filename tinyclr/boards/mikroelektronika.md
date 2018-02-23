@@ -47,3 +47,7 @@ When done, your PC should detect a TinyCLR device. You are now ready to [start c
 
 > [!Tip]
 >The region set aside for RLI is 0x2002F000 - 0x2002FFF8
+
+***
+
+Visit our main website at [**www.ghielectronics.com**](http://www.ghielectronics.com) and our community forums at [**forums.ghielectronics.com**](https://forums.ghielectronics.com/).

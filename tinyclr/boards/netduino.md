@@ -173,3 +173,7 @@ This board uses STM32F2, which is very similar to the STM32F4 used on the netdui
 
 ## netduino 1
 This board uses an Atmel micocontroller. The G400 uses an Atmel processor and can be a good starting point for posting TinyCLR OS.
+
+***
+
+Visit our main website at [**www.ghielectronics.com**](http://www.ghielectronics.com) and our community forums at [**forums.ghielectronics.com**](https://forums.ghielectronics.com/).

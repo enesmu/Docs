@@ -61,10 +61,10 @@ GPIOs are the digital I/O pins that allow the user to connect basic devices such
 IRQ capable GPIO pins can be programmed to interrupt a program when the input state of the pin changes.  For example, an IRQ could be used to signal the processor that the WiFi module is receiving data.  The processor would then stop what it is doing to get the data from the WiFi module. [*Sample TinyCLR code*](../tinyclr/tutorials/gpio.md#digital-input-events)
 
 ### USB Client
-Used to communicate with a USB host.  Typically used to program and debug embedded devices.
+Used to communicate with a USB host.  Often used to program and debug embedded devices.
 
 ### USB Host
-Used to communicate with one or more USB clients.  Typically used to connect various devices such as a mouse, keyboard, camera, etc.
+Used to communicate with one or more USB clients.  Typically used to communicate with various devices such as a mouse, keyboard, camera, etc.
 
 ### LCD (TFT Controller - 16bpp or 24bpp)
 An interface providing communication with a TFT LCD (thin-film-transistor liquid-crystal display). The number of data lines connected determines the number of bits per pixel (bpp) which determines the number of colors that can be displayed. [*Sample TinyCLR code*](../tinyclr/tutorials/display.md)
@@ -284,3 +284,7 @@ JTAG is a serial interface which allows communication between the processor and 
 | 198           | GND                           |
 | 199           | JTAG TMS (SWDIO)              |
 | 200           | Indicator D                   |
+
+***
+
+Visit our main website at [**www.ghielectronics.com**](http://www.ghielectronics.com) and our community forums at [**forums.ghielectronics.com**](https://forums.ghielectronics.com/).

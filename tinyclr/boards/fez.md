@@ -20,3 +20,7 @@ The loader comes loaded by default and does not need to be updated. However, if 
 ## Loading the Firmware
 1. Press and hold the BTN1 button down while resetting the board.
 2. Download the [FEZCLR firmware](../../tinyclr/downloads.md#fezclr) and follow [Loading the Firmware](../../tinyclr/loaders/ghi_bootloader.md#loading-the-firmware) steps.
+
+***
+
+Visit our main website at [**www.ghielectronics.com**](http://www.ghielectronics.com) and our community forums at [**forums.ghielectronics.com**](https://forums.ghielectronics.com/).

@@ -10,3 +10,7 @@ You can just start coding everything from scratch. The easiest options would be 
 * [Keil Website](http://www.keil.com/)
 * [Keil ARM MDK tools](http://www2.keil.com/mdk5)
 * [GNU ARM Tools (GCC)](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads)
+
+***
+
+Visit our main website at [**www.ghielectronics.com**](http://www.ghielectronics.com) and our community forums at [**forums.ghielectronics.com**](https://forums.ghielectronics.com/).

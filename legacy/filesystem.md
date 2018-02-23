@@ -23,3 +23,7 @@ Originally called ALFAT.
 
 # uALFAT
 * [User Manual](http://files.ghielectronics.com/downloads/Documents/Manuals/uALFAT User Manual.pdf)
+
+***
+
+Visit our main website at [**www.ghielectronics.com**](http://www.ghielectronics.com) and our community forums at [**forums.ghielectronics.com**](https://forums.ghielectronics.com/).

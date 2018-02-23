@@ -679,3 +679,7 @@ After flashing the firmware the first time, Windows may still use the old NETMF 
 - {int/long/double/...}.TryParse(string source, out value)
 - string.Format(string format, param object[] args)
 - System.Diagnostics.WriteLine(string message)
+
+***
+
+Visit our main website at [**www.ghielectronics.com**](http://www.ghielectronics.com) and our community forums at [**forums.ghielectronics.com**](https://forums.ghielectronics.com/).

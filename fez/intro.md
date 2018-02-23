@@ -12,11 +12,11 @@ FEZ (fast and easy) is the ultimate maker board. This low cost board offers Ardu
 
 |  |  |
 |--|--|
-| **TinyCLR** </br> Embedded programming using Visual Studio .NET. [Learn more...](tinyclr.md) | **Arduino** </br> Very popular open source standard. [Learn more...](arduino.md) |
+| **TinyCLR** </br> Embedded programming using Visual Studio .NET. [**Learn more...**](tinyclr.md) | **Arduino** </br> Very popular open source standard. [**Learn more...**](arduino.md) |
 | [![TinyCLR](images/tinyclrlogo.jpg)](tinyclr.md) | [![Arduino](images/arduino_logo.png)](arduino.md) |
-| **Mbed** </br> Online free C/C++ compiler. [Learn more...](mbed.md) | **MicroPython** </br> A version of Python for microcontrollers. [Learn more...](python.md) |
+| **Mbed** </br> Online free C/C++ compiler. [**Learn more...**](mbed.md) | **MicroPython** </br> A version of Python for microcontrollers. [**Learn more...**](python.md) |
 | [![Mbed Logo](images/mbed_logo.png)](mbed.md) | [![G400S](images/micro_python_logo.png)](python.md) |
-| **Plain Coding!** </br> Use the Cortex-M4 compiler of your choice. [Learn more...](plain_coding.md) | **Accessories** </br> Selected to help get you started. [Learn more...](accessories.md)
+| **Plain Coding!** </br> Use the Cortex-M4 compiler of your choice. [**Learn more...**](plain_coding.md) | **Accessories** </br> Selected to help get you started. [**Learn more...**](accessories.md)
 | [![Sample Code](images/code.png)](plain_coding.md) | [![Accessories](images/accessories.png)](accessories.md)
 
 ## Specifications
@@ -91,3 +91,7 @@ We recommend using the TinyCLR Config tool to update the firmware. As a backup, 
 8. Go to `File` -> `Transfer` -> `XMODEM` -> `Send` and then check the `1K` option.
 9. Select the firmware file you downloaded in step 1.
 10. When the transfer is complete, use the RESET button to reset the FEZ.
+
+***
+
+Visit our main website at [**www.ghielectronics.com**](http://www.ghielectronics.com) and our community forums at [**forums.ghielectronics.com**](https://forums.ghielectronics.com/).

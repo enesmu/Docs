@@ -17,3 +17,7 @@ Our SCM, UCM, and FEZ products all support TinyCLR OS. We also support boards ma
 * [**STM32 Boards**](stm32_boards.md)
 * [**Netduino**](netduino.md)
 * [**MikroElektronika**](mikroelektronika.md)
+
+***
+
+Visit our main website at [**www.ghielectronics.com**](http://www.ghielectronics.com) and our community forums at [**forums.ghielectronics.com**](https://forums.ghielectronics.com/).

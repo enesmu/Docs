@@ -11,3 +11,7 @@ This video shows the steps needed to use MicroPython (The FEZ and the BrainPad s
 
 * [MicroPyho Website](http://www.micropython.org/)
 * [GitHub Repo](https://github.com/micropython/micropython)
+
+***
+
+Visit our main website at [**www.ghielectronics.com**](http://www.ghielectronics.com) and our community forums at [**forums.ghielectronics.com**](https://forums.ghielectronics.com/).

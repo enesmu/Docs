@@ -6,13 +6,13 @@ TinyCLR OS is our path forward that started with the [.NET Micro Framework](http
 
 |  |  |
 |--|--|
-| **Tutorials** </br> Learn about embedded programming using TinyCLR. [Learn more...](tutorials/intro.md) | **Porting** </br> Run TinyCLR on other devices. [Learn more...](porting/intro.md) |
+| **Tutorials** </br> Learn TinyCLR embedded programming. [**Learn more...**](tutorials/intro.md) | **Porting** </br> Run TinyCLR on other devices. [**Learn more...**](porting/intro.md) |
 | [![Learn More](images/learn.jpg)](tutorials/intro.md) | [![TinyCLR Logo](images/tinyclrlogo.jpg)](porting/intro.md) |
-| **TinyCLR Config** </br> Our device configuration program. [Learn more...](tinyclr_config.md) | **Downloads** </br> Visual Studio and device downloads. [Learn more...](downloads.md) |
+| **TinyCLR Config** </br> Our device configuration program. [**Learn more...**](tinyclr_config.md) | **Downloads** </br> Visual Studio and device downloads. [**Learn more...**](downloads.md) |
 | [![TinyCLR Config](images/tinyclr-config_sm.png)](tinyclr_config.md) | [![Download](images/download.jpg)](downloads.md) |
-| **Roadmap** </br> The future of TinyCLR. [Learn more...](roadmap.md) | **Supported Boards** </br> Some boards that run TinyCLR. [Learn more...](boards/intro.md) |
+| **Roadmap** </br> The future of TinyCLR. [**Learn more...**](roadmap.md) | **Supported Boards** </br> Some boards that run TinyCLR. [**Learn more...**](boards/intro.md) |
 | [![Road](images/road.jpg)](roadmap.md) | [![Boards](images/boards.png)](boards/intro.md) |
-| **Bootloaders** </br> [Learn more...](loaders/intro.md) |  |
+| **Bootloaders** </br> [**Learn more...**](loaders/intro.md) |  |
 | [![Bootloader](images/bootloader.png)](loaders/intro.md) |  |
 
 > [!Tip]
@@ -51,4 +51,8 @@ Instructions for installing the bootloader and firmware are provided on the docu
 ## Internet of Things
 A modern system is not complete without support for the Internet and the cloud. TinyCLR OS includes everything you need to be online.
 (details coming soon)
+
+***
+
+Visit our main website at [**www.ghielectronics.com**](http://www.ghielectronics.com) and our community forums at [**forums.ghielectronics.com**](https://forums.ghielectronics.com/).
 

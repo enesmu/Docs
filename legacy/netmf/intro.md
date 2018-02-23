@@ -14,7 +14,7 @@ To use NETMF, install:
 
 The [NETMF for Beginners](http://files.ghielectronics.com/downloads/NETMF/NETMF_for_Beginners.pdf) guide is a good starting point.
 
-# Available NETMF SDKs
+## Available NETMF SDKs
 Release notes are found within the SDKs.
 
 Date | NETMF Core Rev | SDK
@@ -32,15 +32,15 @@ Apr 30, 2013 | 4.3 RTM | [NETMF and Gadgeteer Package 2013 R1 Update 1](http://f
 Feb 14, 2013 | 4.2 QFE2 | [NETMF and Gadgeteer Package 2013 R1](http://files.ghielectronics.com/downloads/NETMF/SDKs/NETMF%20and%20Gadgeteer%20Package%202013%20R1.zip)
 Feb 17, 2012 | 4.1 RTM | [NETMF 4.1 SDK, for Embedded Master, USBizi and ChipworkX](https://ghistorage.blob.core.windows.net/downloads/NETMF/SDKs/NETMF%204.1%20SDK.zip) (Includes IoT book for FEZ Panda)
 
-# With TinyCLR OS
+## With TinyCLR OS
 Most NETMF devices are still useable today with the latest technology. To use TinyCLR OS, you need to load a new bootloader and the TinyCLR OS firmware.
 
-## Loading the Bootloader v2
+### Loading the Bootloader v2
 Before loading the TinyCLR OS firmware, we need load the GHI Electronics' [Bootloader Version 2](../../tinyclr/loaders/ghi_bootloader.md).
 
 Each board has specific instructions on loading the bootloader. The instructions are found on the individual board's pages.
 
-## Running TinyCLR OS
+### Running TinyCLR OS
 Individual product pages detail how to put the device into loader mode to load the firmware. Once running TinyCLR OS, start with the TinyCLR OS [intro tutorial]( ../../tinyclr/tutorials/intro.md).
 
 

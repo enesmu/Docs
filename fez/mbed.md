@@ -11,3 +11,7 @@ This video shows the steps needed to use Mbed (The FEZ and the BrainPad share th
 
 * [mbed Website](https://developer.mbed.org/)
 * [Nucleo-F401RE](https://developer.mbed.org/platforms/ST-Nucleo-F401RE/)
+
+***
+
+Visit our main website at [**www.ghielectronics.com**](http://www.ghielectronics.com) and our community forums at [**forums.ghielectronics.com**](https://forums.ghielectronics.com/).

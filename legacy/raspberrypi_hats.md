@@ -25,3 +25,7 @@ This [GitHub repo](https://github.com/ghi-electronics/Windows-IoT) includes the 
 This HAT was part of the [Gadgeteering](gadgeteering.md) efforts.
 
 * [Schematic](http://files.ghielectronics.com/downloads/Schematics/FEZ/FEZ Cream Schematic.pdf)
+
+***
+
+Visit our main website at [**www.ghielectronics.com**](http://www.ghielectronics.com) and our community forums at [**forums.ghielectronics.com**](https://forums.ghielectronics.com/).

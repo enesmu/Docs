@@ -1,6 +1,6 @@
 # UCM Accessories
 ---
-![G400 Dev Board](../ucm/images/g400dev.jpg)
+![G400 Dev Board](../ucm/images/ucm_dev_board_noborder.jpg)
 
 The UCM accessories are the main development tools available to begin the process of integrating the UC modules into an application.
 
@@ -23,3 +23,7 @@ A 4.3 inch or 5 inch capacitive touch LCD screen for the UCM Dev Board or UCM Br
 ![UD700](images/ud700.jpg)
 
 A 7 inch capacitive touch LCD screen for the UCM Dev Board or UCM Breakout.
+
+***
+
+Visit our main website at [**www.ghielectronics.com**](http://www.ghielectronics.com) and our community forums at [**forums.ghielectronics.com**](https://forums.ghielectronics.com/).
